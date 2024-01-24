@@ -1,4 +1,4 @@
-# Cisco Live US 2023
+# Cisco Live EMEA 2024
 # DEVWKS-2008 - Reducing the Attack Surface of IOS XE with Ansible
 
 Thank you for spending the next 45 minutes with me. Once we are complete, 
