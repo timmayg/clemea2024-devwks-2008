@@ -4,27 +4,33 @@ The lab network we will be working with looks like the diagram below.
 <img src="/images/network-diagram.png" alt="DEVWKS-2008 Network Diagram" width=600>
 
 
-
 <ol>
 
-<li> Use this table to determine what Pod you have been assigned. </li>
+<li> Use this table to determine what Pod you will work with. </li>
 
-NOTE: Please do NOT use Pod 12 !!! Things will break, lab will fail! You've been warned! 
 
-| Workstation #  | Pod FQDN  |
+| Workstation #  | Pod IP Address  |
 | -------------- | ----------- |
-| Workstation #1  | pod01-xelab.cisco.com   |
-| Workstation #2  | pod02-xelab.cisco.com   |
-| Workstation #3  | pod03-xelab.cisco.com   |
-| Workstation #4  | pod04-xelab.cisco.com   |
-| Workstation #5  | pod05-xelab.cisco.com   |
-| Workstation #6  | pod06-xelab.cisco.com   |
-| Workstation #7  | pod07-xelab.cisco.com   |
-| Workstation #8  | pod08-xelab.cisco.com   |
-| Workstation #9  | pod09-xelab.cisco.com   |
-| Workstation #10  | pod10-xelab.cisco.com   |
-| Workstation #11  | pod11-xelab.cisco.com   |
-| Workstation #12  | pod13-xelab.cisco.com   |
+| Workstation #1  | 128.107.223.201   |
+| Workstation #2  | 128.107.223.202   |
+| Workstation #3  | 128.107.223.203   |
+| Workstation #4  | 128.107.223.204   |
+| Workstation #5  | 128.107.223.205   |
+| Workstation #6  | 128.107.223.206   |
+| Workstation #7  | 128.107.223.207   |
+| Workstation #8  | 128.107.223.208   |
+| Workstation #9  | 128.107.223.209   |
+| Workstation #10  | 128.107.223.210   |
+| Workstation #11  | 128.107.223.211   |
+| Workstation #12  | 128.107.223.212   |
+| Workstation #13  | 128.107.223.213   |
+| Workstation #14  | 128.107.223.214   |
+| Workstation #15  | 128.107.223.215   |
+| Workstation #16  | 128.107.223.216   |
+| Workstation #17  | 128.107.223.217   |
+| Workstation #18  | 128.107.223.218   |
+| Workstation #19  | 128.107.223.219   |
+| Workstation #20  | 128.107.223.220   |
 
 
 <li>Open 3 Terminal sessions on your workstation. </li>
