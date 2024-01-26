@@ -1,6 +1,9 @@
 # Labs & Pods
 
 The lab network we will be working with looks like the diagram below. 
+
+NOTE TO TIM:  Adjust this diagram to reflect the proper Gig & MGig Interface Names!!!
+
 <img src="/images/network-diagram.png" alt="DEVWKS-2008 Network Diagram" width=600>
 
 
