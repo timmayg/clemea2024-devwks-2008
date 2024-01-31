@@ -53,9 +53,14 @@ SSH Username & Password for the Pod & the Cat9300 switches are all the same.
 **Password: ciscolive123**
 <br><br>
 
+
 <li> The first SSH session will be used for managing Ansible and the files. </li>
 We will need to change directories to the CLUS folder for this lab. <br>
 <code> cd clemea2024-devwks-2008 </code>
+<br><br>
+
+<li> Assure you have the latest code & docs from Github!  </li> <br>
+<code> git pull </code>
 <br><br>
 
 <li> The second SSH session will be a jump box for you to get to the first Cat9300 switch. </li>
