@@ -59,7 +59,7 @@ We will need to change directories to the CLUS folder for this lab. <br>
 <code> cd clemea2024-devwks-2008 </code>
 <br><br>
 
-<li> Assure you have the latest code & docs from Github!  </li> <br>
+<li> Assure you have the latest code & docs from Github!  </li>
 <code> git pull </code>
 <br><br>
 
