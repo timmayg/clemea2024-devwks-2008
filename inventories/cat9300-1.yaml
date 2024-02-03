@@ -1,0 +1,11 @@
+---
+  iosxe:
+    hosts:
+      Cat9300-1:
+        ansible_host: 10.65.0.2
+        ansible_user: ciscolive
+        ansible_password: ciscosecure
+ 
+    vars:
+      ansible_network_os: ios
+
