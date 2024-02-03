@@ -5,7 +5,8 @@
   gather_facts: false
 
   vars_files:
-    - ~/clus2023-devwks-2008/vaults/ciscolive.vault
+   - ~/clemea2024-devwks-2008/vaults/ciscolive.vault
+
 
   tasks:
     - name: 02a Task to Add Common Criteria Policy

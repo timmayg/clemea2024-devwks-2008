@@ -5,7 +5,8 @@
   connection: network_cli
 
   vars_files:
-    - ~/clus2023-devwks-2008/vaults/ciscolive.vault
+   - ~/clemea2024-devwks-2008/vaults/ciscolive.vault
+
 
   tasks:
     - name: Get the facts
