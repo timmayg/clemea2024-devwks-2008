@@ -15,12 +15,16 @@
             <config xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
               <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
                 <aaa>
-                  <new-model xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-aaa"/>
                   <common-criteria xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-aaa">
                     <policy>COMMON-POLICY</policy>
-                    <char-changes>4</char-changes>
+                    <char-changes>3</char-changes>
+                    <lower-case>1</lower-case>
                     <max-length>127</max-length>
                     <min-length>12</min-length>
+                    <numeric-count>1</numeric-count>
+                    <special-case>1</special-case>
+                    <upper-case>1</upper-case>
+                    <character-repetition>2</character-repetition>
                     <restrict-consecutive-letters/>
                   </common-criteria>
                 </aaa>
