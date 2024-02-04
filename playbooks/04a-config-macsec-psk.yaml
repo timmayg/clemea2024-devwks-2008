@@ -39,7 +39,7 @@
                       </cryptographic-algorithm-choice>
                       <key-string>
                         <encryption>0</encryption>
-                        <key> {{ macsec_psk }} </key>
+                        <key>{{ macsec_psk }}</key>
                       </key-string>
                     </key>
                   </chain>
