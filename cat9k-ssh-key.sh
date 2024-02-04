@@ -1,3 +1,4 @@
+# Tim's ssh-keyscan Script
 currdate=$(date +'%Y-%m-%d_%H-%M-%S')
 echo "Current Date and Time is $currdate" >> ~/.ssh/known_hosts
 echo "Adding Cat9300 SSH Keys for Cisco Live" >> ~/.ssh/known_hosts
