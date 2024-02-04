@@ -3,9 +3,10 @@
   hosts: iosxe
   connection: netconf
   gather_facts: false
-  
+
   vars_files:
    - ~/clemea2024-devwks-2008/vaults/ciscolive.vault
+   - ~/clemea2024-devwks-2008/vaults/encrypted-pass.vault
 
   tasks:
     - name: 06a Task to Shutdown the Interface
@@ -38,7 +39,7 @@
                       </cryptographic-algorithm-choice>
                       <key-string>
                         <encryption>0</encryption>
-                        <key>1234567812345678123456781234567812345678123456781234567812345678</key>
+                        <key> {{ macsec_psk }} </key>
                       </key-string>
                     </key>
                   </chain>

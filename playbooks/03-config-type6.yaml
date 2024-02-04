@@ -6,7 +6,7 @@
 
   vars_files:
    - ~/clemea2024-devwks-2008/vaults/ciscolive.vault
-   - ~/clemea2024-devwks-2008/vaults/encrypted-pass.vault 
+   - ~/clemea2024-devwks-2008/vaults/encrypted-pass.vault
 
 
   tasks:
