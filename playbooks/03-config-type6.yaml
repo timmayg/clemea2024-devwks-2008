@@ -17,4 +17,4 @@
     - name: 03b Configure Encryption Key
       cisco.ios.ios_config:
         lines:
-          - key config-key password-encrypt {{ type-6-key }}
+          - key config-key password-encrypt {{ type_6_secret }}
