@@ -1,5 +1,5 @@
 ---
-- name: Configure MACsec on Cat9300X TenGigabit1/0/1 Playbook using YANG Models
+- name: 04a - Configure MACsec on Cat9300X TenGigabit1/0/1 Playbook using YANG Models
   hosts: iosxe
   connection: netconf
   gather_facts: false
@@ -9,7 +9,7 @@
    - ~/clemea2024-devwks-2008/vaults/encrypted-pass.vault
 
   tasks:
-    - name: 06a Task to Shutdown the Interface
+    - name: 04a Task to Shutdown the Interface
       ansible.netcommon.netconf_config:
         xml: |
             <config xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
@@ -23,7 +23,7 @@
               </native>
             </config>
 
-    - name: 06b Task to Configure MKA PSK CKN and CAK
+    - name: 04b Task to Configure MKA PSK CKN and CAK
       ansible.netcommon.netconf_config:
         xml: |
             <config xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
@@ -39,7 +39,7 @@
                       </cryptographic-algorithm-choice>
                       <key-string>
                         <encryption>0</encryption>
-                        <key>1234567812345678123456781234567812345678123456781234567812345678</key>
+                        <key>{{ macsec_psk }}</key>
                       </key-string>
                     </key>
                   </chain>
@@ -47,7 +47,7 @@
               </native>
             </config>
 
-    - name: 06c Task to Configure MKA Policy
+    - name: 04c Task to Configure MKA Policy
       ansible.netcommon.netconf_config:
         xml: |
             <config xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
@@ -66,7 +66,7 @@
               </native>
             </config>
 
-    - name: 06d Task to Configure Interface Description
+    - name: 04d Task to Configure Interface Description
       ansible.netcommon.netconf_config:
         xml: |
             <config xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
@@ -80,7 +80,7 @@
               </native>
             </config>
 
-    - name: 06e Task to Configure the Interface with the MKA Policy
+    - name: 04e Task to Configure the Interface with the MKA Policy
       ansible.netcommon.netconf_config:
         xml: |
             <config xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
@@ -98,7 +98,7 @@
               </native>
             </config>
 
-    - name: 06f Task to Configure the Interface with the MKA Key
+    - name: 04f Task to Configure the Interface with the MKA Key
       ansible.netcommon.netconf_config:
         xml: |
             <config xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
@@ -118,7 +118,7 @@
               </native>
             </config>
 
-    - name: 06g Task to Configure MACsec Network Link on the Interface
+    - name: 04g Task to Configure MACsec Network Link on the Interface
       ansible.netcommon.netconf_config:
         xml: |
             <config xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
@@ -136,7 +136,7 @@
               </native>
             </config>
 
-    - name: 06h Task to No Shut Interface
+    - name: 04h Task to No Shut Interface
       ansible.netcommon.netconf_config:
         xml: |
             <config xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
