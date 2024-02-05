@@ -81,9 +81,9 @@
             </config>
 
     - name: 04e Task to Configure the Interface with the MKA Policy
-      ansible.netcommon.netconf_config:
       tags: 
         - apply_mka_int
+      ansible.netcommon.netconf_config:
         xml: |
             <config xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
               <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
