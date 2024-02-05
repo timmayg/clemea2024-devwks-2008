@@ -48,7 +48,7 @@ Cat9300X-PodA has 10 Gb. Cat9300-PodB has 1 Gb interfaces. Because of the naming
 <code>ansible-playbook -i inventories/cat9300-a.yaml playbooks/04a-config-macsec-psk.yaml --ask-vault-pass
 </code>
 <br><br>
-<img src="/images/04-09-playbook-output-macsec-web.png" alt="" width=600>
+<img src="/images/04-09a-playbook-output-macsec-web.png" alt="" width=600>
 <br><br><br>
 
 
@@ -57,7 +57,7 @@ Cat9300X-PodA has 10 Gb. Cat9300-PodB has 1 Gb interfaces. Because of the naming
 <code>ansible-playbook -i inventories/cat9300-b.yaml playbooks/04b-config-macsec-psk.yaml --ask-vault-pass
 </code>
 <br><br>
-<img src="" alt="" width=600>
+<img src="/images/04-09b-playbook-output-macsec-web.png" alt="" width=600>
 <br><br><br>
 
 
