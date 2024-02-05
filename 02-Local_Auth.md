@@ -51,7 +51,7 @@ In this task, we will view and run a playbook that will create a Common Criteria
 <li>View the Local User </li>
 Notice how some users need to have the Common Criteria applied and that the one we just created does have it applied. 
 <br>
-<code>show runn | inc username </code>
+<code>show runn | inc username jhonny</code>
 <br><br>
 <img src="/images/02-06-show-username-jhonny-web.png" alt="" width=600>
 <br><br><br>
