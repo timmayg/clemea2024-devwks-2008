@@ -81,7 +81,7 @@
             </config>
 
     - name: 04e Task to Configure the Interface with the MKA Policy
-      tags: 
+      tags:
         - apply_mka_int
       ansible.netcommon.netconf_config:
         xml: |
