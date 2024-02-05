@@ -1,3 +1,4 @@
+rm ~/.ssh/known_hosts
 # Tim's ssh-keyscan Script
 currdate=$(date +'%Y-%m-%d_%H-%M-%S')
 echo "Current Date and Time is $currdate" >> ~/.ssh/known_hosts
