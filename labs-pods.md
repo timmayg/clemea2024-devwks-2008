@@ -44,7 +44,7 @@ NOTE TO TIM:  Adjust this diagram to reflect the proper Gig & MGig Interface Nam
 
 <li>SSH to your Pod three (3) times, ADJUST the command below for your Pod ##!</li>
 
-<code> ssh -p 3389 -l ciscolive podXX-xelab.cisco.com </code>
+<code> ssh -p 3389 -l ciscolive IP-ADDR-TABLE-ABOVE </code>
 
 SSH Username & Password for the Pod & the Cat9300 switches are all the same.
 <br>
