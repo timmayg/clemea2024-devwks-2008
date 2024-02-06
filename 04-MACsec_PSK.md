@@ -18,7 +18,7 @@ today. :-)
 <li>View the MACsec Playbook using cat </li>
 You will notice that this is a very long playbook with several tasks. Because all of these tasks are configured with NETCONF RPCs, putting them all into the same playbook is the most efficient. So now we will look at each of the RPCs in detail below. 
 <br>
-<code>cat playbooks/04-config-macsec-psk.yaml</code>
+<code>cat playbooks/04a-config-macsec-psk.yaml</code>
 <br><br>
 This task will shutdown the interface. When making changes like this the interface
 should be shutdown. 
