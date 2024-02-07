@@ -2,8 +2,6 @@
 
 The lab network we will be working with looks like the diagram below. 
 
-NOTE TO TIM:  Adjust this diagram to reflect the proper Gig & MGig Interface Names!!!
-
 <img src="/images/network-diagram.png" alt="DEVWKS-2008 Network Diagram" width=600>
 
 
@@ -31,10 +29,10 @@ NOTE TO TIM:  Adjust this diagram to reflect the proper Gig & MGig Interface Nam
 | Workstation #15  | 128.107.223.215   |
 | Workstation #16  | 128.107.223.216   |
 | Workstation #17  | 128.107.223.217   |
-| Workstation #18  | 128.107.223.218   |
-| Workstation #19  | 128.107.223.221   |
+| Workstation #18  | 128.107.223.221   | 
+| Workstation #19  | 128.107.223.222   |
 | Workstation #20  | 128.107.223.220   |
-
+| Lab Admin  | 128.107.223.228   |
 
 <li>Open 3 Terminal sessions on your workstation. </li>
 
