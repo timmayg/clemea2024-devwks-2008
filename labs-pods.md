@@ -42,7 +42,7 @@ The lab network we will be working with looks like the diagram below.
 
 <li>SSH to your Pod three (3) times, ADJUST the command below for your Pod ##!</li>
 
-<code> ssh -p 3389 -l ciscolive IP-ADDR-TABLE-ABOVE </code>
+<code> ssh -p 443 -l ciscolive IP-ADDR-TABLE-ABOVE </code>
 
 SSH Username & Password for the Pod & the Cat9300 switches are all the same.
 <br>
